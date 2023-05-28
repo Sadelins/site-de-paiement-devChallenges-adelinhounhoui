@@ -1,0 +1,289 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.cont-sold{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fle,.tt,.jj{
+    display: flex;
+}
+
+
+
+
+svg{
+    width: 20px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    color:rgb(143, 142, 142) ;
+}
+
+#ico1,#ico2{
+background-color:rgba(192, 191, 191, 0.388);
+border-radius: 2px;
+}
+
+#ico2{
+    position: relative;
+    margin-left: 84px;
+    top: -30px;
+}
+
+.jj p{
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+.count,.postal{
+    display: grid;
+}
+
+input{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 40px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 11px;
+    border-radius: 10px;
+    border: 2px solid rgb(202, 201, 201);
+}
+
+.tt{
+    margin-left: -180px;
+}
+
+
+h4{
+    font-size: 23px;
+}
+
+
+img{
+    width: 130px;
+    height: 138px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.right-cont-top-right,.right-cont-bottom-right{
+    margin-top: -28px;
+}
+
+aside{
+    color: rgb(143, 142, 142);
+    text-align: center;
+}
+
+code{
+    text-decoration: underline;
+}
+
+.cont-right{
+    padding: 20px;
+    border-radius:20px;
+    background-color: rgba(192, 192, 192, 0.297);
+    height: 580px;
+    width: 300px;
+    margin-top: 10vh;
+}
+
+article{
+    margin-top: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px ;
+    border: solid rgb(192, 192, 192) 2px;
+    width: 100px;
+}
+
+.right-cont-top,.right-cont-bottom{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.right-cont-bottom{
+    margin-bottom: 40px;
+}
+select{
+    color: rgb(128, 128, 128);
+    padding: 40px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 11px;
+    margin-top: -60px;
+    height:40px;
+    border-radius: 10px;
+    border: 2px solid rgb(202, 201, 201);
+    width: 180px;
+}
+
+#postal{
+    margin-top: 10px;
+    width: 150px;
+    margin-left: 80px;
+}
+
+
+.ppp{
+    position: relative;
+    top: 0px;
+}
+input[type="submit"]{
+    width: 130px;
+    text-align: center;
+    padding: 11px;
+    background-color: rgb(239, 183, 40);
+    border: none;
+    color: #ffffff;
+    float: right;
+    margin-left: 150px;
+    margin-top: -10px;
+}
+
+label{
+    color: rgb(128, 128, 128);
+    font-family: sans-serif;
+    font-size: 12px;
+    position: relative;
+    bottom: -12px;
+}
+
+option{
+    color: rgb(239, 183, 40);
+}
+
+span{
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#span{
+    margin-top: -10px;
+    color: rgb(239, 183, 40);
+    font-weight: bolder;
+}
+
+#spa{
+    margin-top: 20px;
+}
+
+
+section{
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-left{
+    margin-right: 220px;
+}
+
+form{
+    display: grid;
+}
+
+@media screen and (max-width:768px) {
+    section{
+        display: block;
+    }
+
+    input[type="submit"]{
+        position: relative;
+        left: -34px;
+        top: 23px;
+    }
+
+    .tt{
+        position: relative;
+        left: 23vh;
+        margin-top: 43px;
+    }
+
+    body{
+        font-size: 13px;
+    }
+
+    form{
+        margin-left: 2vw;
+    }
+
+
+    input{
+        width: 80vh;
+    }
+
+    .fle{
+        margin-top: 84px;
+    }
+
+    .count label{
+        position: relative;
+        top: -75px;
+    }
+
+    section{
+        width: 80vw;
+    }
+
+    select{
+        width: 170px;
+        margin-top: -153px;
+    }
+    .postal{
+        position: relative;
+        top: -77px;
+        left: -74px;
+    }
+
+    .postal label{
+        top: -6px;
+    }
+
+    input[type="checkbox"]{
+        width: 17px;
+    }
+    #postal{
+        width: 109px;
+    }
+    h4{
+        position: relative;
+        top: -740px;
+        margin-left: 2vw;
+        width: 20px;
+    }
+    
+    aside{
+        margin-top: 34px;
+    }
+
+
+    span.sp{
+        width: 24px;
+        margin-left: 2vw;
+        text-align: left;
+    }
+
+    .cont-right{
+        position: relative;
+        top: -970px;
+        margin-left: 2vw;
+    }
+
+
+    .cont-left{
+        position: relative;
+        top:700px
+    }
+}
